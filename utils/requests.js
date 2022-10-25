@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY_TMDB
+const API_KEY = 'a6bb49cd3c801ce92b4d9f3e21a04aa3'
 export default {
   fetchTrending: {
     title: 'Trending',
