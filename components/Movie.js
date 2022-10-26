@@ -9,6 +9,7 @@ const Movie = forwardRef(({ results }, ref) => {
       className="p-2 group cursor-pointer transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50"
     >
       <Image
+        alt={results.title}
         layout="responsive"
         src={
           `${BASE_URL}${results.backdrop_path || results.poster_path}` ||
@@ -33,5 +34,6 @@ const Movie = forwardRef(({ results }, ref) => {
     </div>
   )
 })
+Movie.displayName = 'Movie'
 
 export default Movie

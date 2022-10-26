@@ -25,6 +25,7 @@ const Header = () => {
         src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Hulu_Logo.svg"
         width={120}
         height={60}
+        alt="logo"
       />
     </header>
   )
